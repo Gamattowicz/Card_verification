@@ -1,0 +1,25 @@
+{
+  "name": "card_verification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "dependencies": {
+    "daisyui": "^2.51.5",
+    "tailwindcss": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gamattowicz/Card_verification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gamattowicz/Card_verification/issues"
+  },
+  "homepage": "https://github.com/Gamattowicz/Card_verification#readme"
+}
